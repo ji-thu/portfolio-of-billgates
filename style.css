@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+}
+nav{
+    background-color: rgb(6, 5, 5);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    position: sticky;
+    top: 0;
+}
+nav ul{
+    display: flex;
+
+}
+nav ul li{
+    display: flex;
+    justify-content: space-between;
+
+}
+nav ul li a{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px;
+    color: rgb(250, 250, 250);
+    text-decoration: none;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    height: 550px;
+    
+}
+#home::before{
+    content: '';
+    position: absolute;
+    background-image: url('https://basicincome.org/wp-content/uploads/2017/03/o-BILL-GATES-facebook.jpg');
+    width: 100%;
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    opacity: 1;
+    top: 60px;
+}
+.main{
+    
+    /* border: 3px solid lawngreen;
+    padding: 60px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 30%;
+    right: 30%;
+    z-index: -1;
+    width: 300px;
+    /* box-shadow: 3px 6px 7px 8px wheat; */
+}
+.main h1{
+  font-size:xx-large;
+  font-weight: 800px;
+}
+#about{
+    top: 400px;
+}
+.heading{
+    color: rgb(12, 12, 12);
+    text-align: center;
+    margin: 10px;
+    font-size: 30px;
+    font-weight: 900;
+}
+.heading:hover{
+    color: rgb(179, 230, 15);
+    text-shadow: 2px 3px 4px 4px rgb(20, 210, 236);
+}
+.image{
+    display: flex;
+}
+.content p{
+    text-align: justify;
+    margin: 40px;
+}
+.image img{
+    width: 300px;
+    height: auto;
+    border-radius: 20px;
+}
+.content h3{
+    color: rgba(231, 206, 65, 0.678);
+    text-align: center;
+
+}
+.rows{
+    display: flex;
+    flex-direction: row;
+
+}
+.box{
+    width: 250px;
+    height: 500px;
+    border: 2px solid lavender;
+    margin: 25px;
+    background: linear-gradient(to top,brown 50%,white 50%);
+    background-size: 100% 200%;
+    transition: all 0.8s;
+}
+.box:hover{
+    background-position: left bottom;
+    box-shadow: 2px 3px 4px lightcoral;
+    border: none;
+
+}
+.box img{
+    width: 200px;
+    height: 250px;
+    padding: 20px;
+}
+.box h1{
+    margin: 10px;
+    color: rgb(224, 203, 228);
+
+}
+.box p{
+    text-align: justify;
+    margin: 20px;
+    width: 200px;
+    height: 00px;
+}
+input{
+    width: 100%;
+    align-items: center;
+    flex-direction: row;
+    margin: 10px 0;
+    
+}
+form{
+    width: 400px;
+    margin-left: 500px;
+    margin-right: 100px;
+}
+#contact{
+    background-color: rgb(188, 210, 136);
+}
+p{
+    margin: 15px;
+}
+h2{
+    margin: 10px;
+}
